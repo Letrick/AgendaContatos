@@ -1,5 +1,6 @@
 package main;
 
+import java.lang.ref.Cleaner;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Scanner;
@@ -80,9 +81,9 @@ public class Cliente {
 		System.out.println(sb.toString());
 
 		
-		contatos pessoa1 = new contatos(" ");
+//		contatos pessoa1 = new contatos(" ");
 
-		contato.add(pessoa1);
+//		contato.add(pessoa1);
 
 		
 		Agenda agenda = new Agenda(contato);
@@ -98,8 +99,8 @@ public class Cliente {
 	
 	
 	public static ArrayList<Nome> inserir() {
-		Scanner leitor = new Scanner(System.in); 
 		ArrayList<Nome> nome = new ArrayList<>();
+		Scanner leitor = new Scanner(System.in); 
 
 		StringBuilder sb = new StringBuilder();
 		sb.append("===================================\n");
@@ -109,16 +110,11 @@ public class Cliente {
 		System.out.println(sb.toString());
 
 		Nome NomesADD = new Nome(" ");
-//		nome.add(NomesADD);
+		nome.add(NomesADD);
+		System.out.println( "Insira o nome: ");
 
-		System.out.print("Digite o nome: ");
-		leitor.nextLine();
-
-
-		leitor.equals(NomesADD);
-		System.out.println(nome);
+		System.out.println("Nome: " + leitor.nextLine());
 		
-
 		return nome;
 
 	}
