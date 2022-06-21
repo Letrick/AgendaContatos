@@ -1,0 +1,22 @@
+Id,Nome,Biblioteca de formas,ID da p´ágina,Contido por,Grupo,Status,Área de texto 1,Área de texto 2,Área de texto 3
+1,Documento,,,,,,AgendaContatos,,
+2,Página,,,,,,Agenda,,
+3,Classe,UML,2,,,,CONTATOS,nome endereco telefone email,
+4,Classe,UML,2,,,,EMAIL,"emailComercial
+emailPessoal
+",
+5,Classe,UML,2,,,,TELEFONE,"telefoneComercial
+telefonePessoal
+telefoneResidencial",
+6,Classe,UML,2,,,,ENDERECO,enderecoResidencial enderecoCorporativo,
+7,Classe,UML,2,,,,NOME,nome sobrenome,
+8,Classe,UML,2,,,,AGENDA,contatos,
+9,Classe Ativa,UML,2,,,,nome,,
+10,Classe Ativa,UML,2,,,,enderecoResidencial,,
+11,Classe Ativa,UML,2,,,,enderecoCorporativo,,
+12,Classe Ativa,UML,2,,,,telefoneComercial,,
+13,Classe Ativa,UML,2,,,,telefonePessoal,,
+14,Classe Ativa,UML,2,,,,telefoneResidencial,,
+15,Classe Ativa,UML,2,,,,emailComercial,,
+16,Classe Ativa,UML,2,,,,emailPessoal,,
+17,Classe Ativa,UML,2,,,,sobrenome,,
